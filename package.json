@@ -19,9 +19,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "rm": "rm -rf docs",
-    "mv": "mv build docs",
-    "git": "git add . && git commit && git push origin deploy_test",
+    "rm": "rm -rf docs2",
+    "mv": "mv build docs2",
+    "git": "git add . && git commit -m \"deploy: deploy react app\" && git push origin deploy_test",
     "deploy2": "npm run rm && npm run build && npm run mv && npm run git"
   },
   "eslintConfig": {
