@@ -23,6 +23,7 @@
       "react-app/jest"
     ]
   },
+  "homepage": "https://dorapon48.github.io/react_pages_test/",
   "browserslist": {
     "production": [
       ">0.2%",
